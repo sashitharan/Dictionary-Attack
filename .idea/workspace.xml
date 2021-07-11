@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da311e6-07f3-43ed-aa20-7b9531325563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CrackedPasswords.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dictionary-Attack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/English.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gson-2.8.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JSONFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrackedPasswords.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dictionary-Attack/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dictionary-Attack/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +67,8 @@
       <updated>1625987943115</updated>
       <workItem from="1625987944368" duration="559000" />
       <workItem from="1625988652008" duration="285000" />
-      <workItem from="1625988952673" duration="846000" />
+      <workItem from="1625988952673" duration="1549000" />
+      <workItem from="1625991868079" duration="65000" />
     </task>
     <servers />
   </component>

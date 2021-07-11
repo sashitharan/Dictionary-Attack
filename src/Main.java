@@ -21,11 +21,12 @@ public class Main {
         System.out.println("GET: "+ url +"\n");
 
         try (InputStream in = url.openStream()) {
-            if (!Files.exists(Paths.get( "CrackedPasswords.json")))
-                Files.copy(in, Paths.get( "CrackedPasswords.json"));
+            if (!Files.exists(Paths.get( "RetrievedShadowFile.json")))
+                Files.copy(in, Paths.get( "RetrievedShadowFile.json"));
         }
 
-        JSONFormat fromAPI = new GsonBuilder().create().fromJson(new JsonReader(new FileReader("CrackedPasswords.json")), JSONFormat.class);
+
+        JSONFormat fromAPI = new GsonBuilder().create().fromJson(new JsonReader(new FileReader("RetrievedShadowFile.json")), JSONFormat.class);
         JSONFormat presentation = crackPasswords(fromAPI);
 
         timer(startTime);
