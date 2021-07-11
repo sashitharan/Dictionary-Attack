@@ -13,7 +13,7 @@ alice:$5$jqcjl$f5f099e0ad6e2f5204688ebe83a59175dda9f1d1b542269fd69f7a8530242495
 
 Since each string corresponds to a line in the /etc/shadow file format used in Linux or UNIX- like system to store user credentials in encrypted format, the lines will be easier to interpret out of.
 
-Based on the understanding, we can derive the first 2 fields which are the password and salt with reference to figure 1. As mentioned in Gite’s article (2020), it can be referred that the password string can be split according to the format $id$salt$hashed. 
+Based on the understanding, we can derive the first 2 fields which are the password and salt with reference to figure 1. The password string can be split according to the format $id$salt$hashed. 
 
 The strings are split into 4 colour codes for better understanding,  it is the username followed by a colon as the fields are separated using a colon (:) symbol. Moving on, the $5$ where it the $id used in the password format on the Linux system to identify the algorithm used. Hence in this case, $5$ reciprocates to a SHA-256 algorithm. Thirdly, the salt used with the original input of the user password to form the hash.
 
