@@ -37,7 +37,7 @@ The final solution of the resolved passwords are attached in the JSON file named
 
 
 ```json
-{
+{ 
   "passwords": [
     "alice:$5$jqcjl$f5f099e0ad6e2f5204688ebe83a59175dda9f1d1b542269fd69f7a8530242495",
     "bob:$5$nxrhk$54a0beb2f045e3748d9308ad3688bd65ae47206ecca7e449ed13f39f3f6959c7",
